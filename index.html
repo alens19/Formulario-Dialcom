@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="styles.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Work at Dialcom</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="Welcoming">
+        <h1>READY TO WORK AT DIAL<span>COM</span>?</h1>
+        <p>Please fill the form below</p>
+      </div>
+      <div class="Form">
+        <form action="submitted.html" method="post">
+          <fieldset>
+            <label for="Full-name"
+              >Full name
+              <input id="Full-name" name="Full-name" type="text" required />
+            </label>
+            <label for="Email-address"
+              >Email adress
+              <input
+                id="Email-address"
+                name="Email-address"
+                type="email"
+                required
+            /></label>
+            <label for="Phone-number">
+              Phone number
+              <input
+                id="Phone-number"
+                name="Phone-number"
+                type="tel"
+                required
+                placeholder="XXXX-XXXX"
+              />
+            </label>
+            <label for="Available-positions"
+              >Available positions
+              <select required>
+                <option disabled selected>Select an option</option>
+                <option value="Customer-Service-Representative">
+                  Customer service representative
+                </option>
+                <option value="Customer-Service-Supervisor">
+                  Customer service supervisor
+                </option>
+                <option value="Sales-Specialist">Sales specialist</option>
+                <option value="Technical-Support-Specialist">
+                  Technical Support Specialist
+                </option>
+              </select>
+            </label>
+            <label for="Curriculum-Vitae"
+              >Upload your CV<input type="file" id="CV" name="CV" />
+            </label>
+            <label for="Heard-About-Us">Where did you heard about us?</label>
+            <select required>
+              <option disabled selected>Select an option</option>
+              <option value="Social-media">Social media</option>
+              <option value="Referral">
+                Referral from a friend or family member
+              </option>
+              <option value="Advertisement">Advertisement</option>
+              <option value="Online-Search">Online search</option>
+              <option value="Event-fair">Event or job fair</option>
+            </select>
+            <button type="submit" id="submit">SUBMIT</button>
+          </fieldset>
+        </form>
+      </div>
+      <img src="logo horizontal.png" alt="Dialcom-logo" />
+    </div>
+    <div class="image">
+      <div class="image-overlay"></div>
+    </div>
+  </body>
+</html>
