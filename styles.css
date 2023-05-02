@@ -36,7 +36,7 @@ h1 {
   align-items: center;
   height: 100vh;
   float: right;
-
+  max-width: 100%;
   width: 650px;
   padding: 20px;
   background-color: white;
